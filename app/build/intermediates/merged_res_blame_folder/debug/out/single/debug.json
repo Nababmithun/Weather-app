@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_weather.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\activity_weather.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\font_robotomedium.ttf.flat",
+        "source": "D:\\weatherapp\\app\\src\\debug\\res\\font\\robotomedium.ttf"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\font_robotoregular.ttf.flat",
+        "source": "D:\\weatherapp\\app\\src\\debug\\res\\font\\robotoregular.ttf"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_details.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\fragment_details.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\layout_toolbar_with_text.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\toolbar_with_text.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_weather_recylerview.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\fragment_weather_recylerview.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\font_robotobold.ttf.flat",
+        "source": "D:\\weatherapp\\app\\src\\debug\\res\\font\\robotobold.ttf"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_splash.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\navigation_nav_main.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\navigation\\nav_main.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\font_robotolight.ttf.flat",
+        "source": "D:\\weatherapp\\app\\src\\debug\\res\\font\\robotolight.ttf"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_tttt.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\drawable-v24\\tttt.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\layout_weather_list_layout.xml.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\weather_list_layout.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\drawable-v24_weather.png.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\drawable-v24\\weather.png"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    }
+]

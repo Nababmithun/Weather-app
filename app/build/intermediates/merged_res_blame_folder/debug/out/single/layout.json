@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\toolbar_with_text.xml",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\toolbar_with_text.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_weather_recylerview.xml",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\fragment_weather_recylerview.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_weather.xml",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\activity_weather.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_splash.xml",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\fragment_splash.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\weather_list_layout.xml",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\weather_list_layout.xml"
+    },
+    {
+        "merged": "D:\\weatherapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_details.xml",
+        "source": "D:\\weatherapp\\app\\src\\main\\res\\layout\\fragment_details.xml"
+    }
+]

@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.weatherapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+8-->D:\weatherapp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->D:\weatherapp\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+13         Google Maps Android API v2, but you must specify either coarse or fine
+14         location permissions for the "MyLocation" functionality.
+15    -->
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->D:\weatherapp\app\src\main\AndroidManifest.xml:10:5-79
+16-->D:\weatherapp\app\src\main\AndroidManifest.xml:10:22-76
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->D:\weatherapp\app\src\main\AndroidManifest.xml:11:5-81
+17-->D:\weatherapp\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->D:\weatherapp\app\src\main\AndroidManifest.xml:12:5-67
+18-->D:\weatherapp\app\src\main\AndroidManifest.xml:12:22-64
+19
+20    <!-- Include required permissions for Google Maps API to run. -->
+21    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+26
+27    <queries>
+27-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+28
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+31    </queries>
+32
+33    <application
+33-->D:\weatherapp\app\src\main\AndroidManifest.xml:14:5-46:19
+34        android:name="com.example.weatherapp.MyApplication"
+34-->D:\weatherapp\app\src\main\AndroidManifest.xml:15:9-38
+35        android:allowBackup="true"
+35-->D:\weatherapp\app\src\main\AndroidManifest.xml:16:9-35
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.7.0] C:\Users\HP\.gradle\caches\transforms-3\b8cc6b22b9ceb5204ac87b4be99f63d1\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:extractNativeLibs="false"
+39        android:icon="@mipmap/ic_launcher"
+39-->D:\weatherapp\app\src\main\AndroidManifest.xml:17:9-43
+40        android:label="@string/app_name"
+40-->D:\weatherapp\app\src\main\AndroidManifest.xml:18:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->D:\weatherapp\app\src\main\AndroidManifest.xml:19:9-54
+42        android:supportsRtl="true"
+42-->D:\weatherapp\app\src\main\AndroidManifest.xml:20:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.WeatherApp"
+44-->D:\weatherapp\app\src\main\AndroidManifest.xml:21:9-48
+45        android:usesCleartextTraffic="true" >
+45-->D:\weatherapp\app\src\main\AndroidManifest.xml:22:9-44
+46
+47        <!--
+48             The API key for Google Maps-based APIs is defined as a string resource.
+49             (See the file "res/values/google_maps_api.xml").
+50             Note that the API key is linked to the encryption key used to sign the APK.
+51             You need a different API key for each encryption key, including the release key that is used to
+52             sign the APK for publishing.
+53             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+54        -->
+55        <meta-data
+55-->D:\weatherapp\app\src\main\AndroidManifest.xml:32:9-34:55
+56            android:name="com.google.android.geo.API_KEY"
+56-->D:\weatherapp\app\src\main\AndroidManifest.xml:33:13-58
+57            android:value="@string/google_maps_key" />
+57-->D:\weatherapp\app\src\main\AndroidManifest.xml:34:13-52
+58
+59        <activity
+59-->D:\weatherapp\app\src\main\AndroidManifest.xml:36:9-44:20
+60            android:name="com.example.weatherapp.ui.WeatherActivity"
+60-->D:\weatherapp\app\src\main\AndroidManifest.xml:37:13-47
+61            android:exported="true" >
+61-->D:\weatherapp\app\src\main\AndroidManifest.xml:38:13-36
+62            <intent-filter>
+62-->D:\weatherapp\app\src\main\AndroidManifest.xml:39:13-43:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->D:\weatherapp\app\src\main\AndroidManifest.xml:40:17-69
+63-->D:\weatherapp\app\src\main\AndroidManifest.xml:40:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->D:\weatherapp\app\src\main\AndroidManifest.xml:42:17-77
+65-->D:\weatherapp\app\src\main\AndroidManifest.xml:42:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <!-- Needs to be explicitly declared on P+ -->
+70        <uses-library
+70-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+71            android:name="org.apache.http.legacy"
+71-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+72            android:required="false" />
+72-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\HP\.gradle\caches\transforms-3\fccad954ae79d3c343d564767e90397d\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+73
+74        <activity
+74-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\9665fc89d23298ca06d2e6c44fad8469\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+75            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+75-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\9665fc89d23298ca06d2e6c44fad8469\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+76            android:exported="false"
+76-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\9665fc89d23298ca06d2e6c44fad8469\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+77            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+77-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\9665fc89d23298ca06d2e6c44fad8469\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+78
+79        <meta-data
+79-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\HP\.gradle\caches\transforms-3\95c54e8696437b1a3714c2f081b5e4e2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+80            android:name="com.google.android.gms.version"
+80-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\HP\.gradle\caches\transforms-3\95c54e8696437b1a3714c2f081b5e4e2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+81            android:value="@integer/google_play_services_version" />
+81-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\HP\.gradle\caches\transforms-3\95c54e8696437b1a3714c2f081b5e4e2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+82
+83        <provider
+83-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\700d3423c6aba8891002e586b792f0b1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+84            android:name="androidx.startup.InitializationProvider"
+84-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\700d3423c6aba8891002e586b792f0b1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+85            android:authorities="com.example.weatherapp.androidx-startup"
+85-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\700d3423c6aba8891002e586b792f0b1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+86            android:exported="false" >
+86-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\700d3423c6aba8891002e586b792f0b1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+87            <meta-data
+87-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\700d3423c6aba8891002e586b792f0b1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+88                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+88-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\700d3423c6aba8891002e586b792f0b1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+89                android:value="androidx.startup" />
+89-->[androidx.emoji2:emoji2:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\700d3423c6aba8891002e586b792f0b1\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+90            <meta-data
+90-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-3\3de4cf1e1c5f76ecd408f59a93dd6f9a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+91                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+91-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-3\3de4cf1e1c5f76ecd408f59a93dd6f9a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+92                android:value="androidx.startup" />
+92-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\HP\.gradle\caches\transforms-3\3de4cf1e1c5f76ecd408f59a93dd6f9a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+93        </provider>
+94    </application>
+95
+96</manifest>

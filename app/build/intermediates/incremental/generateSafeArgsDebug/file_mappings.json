@@ -1,0 +1,1 @@
+[{"navFile":"src\\main\\res\\navigation\\nav_main.xml","javaFiles":["com.example.weatherapp.ui.fragment.splash.SplashFragmentDirections","com.example.weatherapp.ui.fragment.weather.WeatherRecylerviewFragmentDirections","com.example.weatherapp.ui.fragment.details.DetailsFragmentArgs"]}]

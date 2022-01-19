@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragment.details.DetailsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </fragment>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout2"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/mediumText"
+            android:layout_marginTop="@dimen/mediumText"
+            android:text="header"
+            android:textColor="@color/black"
+            android:fontFamily="@font/robotolight"
+            android:textSize="@dimen/xxLargeText"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weatherdes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxxSmallText"
+            android:text="Clear Sky"
+            android:textColor="@color/black"
+            android:fontFamily="@font/robotolight"
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toBottomOf="@+id/name">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weathertemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="60dp"
+            android:text="37"
+            android:textColor="@color/black"
+            android:textSize="@dimen/xxxxLargeMargin"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/name">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weatherhum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxSmallText"
+            android:text="Humidity :"
+            android:fontFamily="@font/robotolight"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toBottomOf="@+id/weatherdes"></androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weatherwind"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxSmallText"
+            android:text="Wind Spped :"
+            android:fontFamily="@font/robotolight"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toBottomOf="@+id/weatherhum"></androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weathermax"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxSmallText"
+            android:text="Max Temp"
+            android:fontFamily="@font/robotolight"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toBottomOf="@+id/weatherwind"></androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weathermin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/xxSmallText"
+            android:text="Min Temp :"
+            android:fontFamily="@font/robotolight"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="@+id/name"
+            app:layout_constraintTop_toBottomOf="@+id/weathermax">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weathermaxtemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xSmallMargin"
+            android:text="27"
+            android:fontFamily="@font/robotolight"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/weathermax"
+            app:layout_constraintStart_toEndOf="@+id/weathermax"
+            app:layout_constraintTop_toTopOf="@+id/weathermax">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weathermintemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xSmallMargin"
+            android:text="27"
+            android:fontFamily="@font/robotolight"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/weathermin"
+            app:layout_constraintStart_toEndOf="@+id/weathermin"
+            app:layout_constraintTop_toTopOf="@+id/weathermin">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weatherhumidity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xSmallMargin"
+            android:text="27"
+            android:fontFamily="@font/robotolight"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/weatherhum"
+            app:layout_constraintStart_toEndOf="@+id/weatherhum"
+            app:layout_constraintTop_toTopOf="@+id/weatherhum">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/appCompatImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/weather"
+            app:layout_constraintEnd_toEndOf="@+id/weathertemp"
+            app:layout_constraintTop_toBottomOf="@+id/weathertemp">
+
+        </androidx.appcompat.widget.AppCompatImageView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/weatherwindspeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/xSmallMargin"
+            android:layout_marginTop="@dimen/xSmallMargin"
+            android:text="27"
+            android:fontFamily="@font/robotolight"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/weatherwind"
+            app:layout_constraintStart_toEndOf="@+id/weatherwind"
+            app:layout_constraintTop_toTopOf="@+id/weatherwind">
+
+        </androidx.appcompat.widget.AppCompatTextView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
