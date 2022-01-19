@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/aaa/weatherapp/app/src/main/res/layout/fragment_details.xml" value="0.1721014492753623" />
+        <entry key="..\:/aaa/weatherapp/app/src/main/res/layout/fragment_weather_recylerview.xml" value="0.1721014492753623" />
+        <entry key="..\:/aaa/weatherapp/app/src/main/res/layout/weather_list_layout.xml" value="0.25" />
+        <entry key="..\:/dotnet/app/src/main/res/drawable-v24/tttt.xml" value="0.16770833333333332" />
+        <entry key="..\:/dotnet/app/src/main/res/layout/activity_maps.xml" value="0.15" />
+        <entry key="..\:/dotnet/app/src/main/res/layout/activity_weather.xml" value="0.1" />
+        <entry key="..\:/dotnet/app/src/main/res/layout/fragment_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/dotnet/app/src/main/res/layout/fragment_maps.xml" value="0.15" />
+        <entry key="..\:/dotnet/app/src/main/res/layout/fragment_splash.xml" value="0.13043478260869565" />
+        <entry key="..\:/dotnet/app/src/main/res/layout/fragment_weather_recylerview.xml" value="0.1" />
+        <entry key="..\:/dotnet/app/src/main/res/layout/weather_list_layout.xml" value="0.2" />
+        <entry key="..\:/weatherapp/app/src/main/res/layout/activity_weather.xml" value="0.1796875" />
+        <entry key="..\:/weatherapp/app/src/main/res/layout/fragment_details.xml" value="0.16666666666666666" />
+        <entry key="..\:/weatherapp/app/src/main/res/layout/fragment_splash.xml" value="0.16666666666666666" />
+        <entry key="..\:/weatherapp/app/src/main/res/layout/fragment_weather_recylerview.xml" value="0.16666666666666666" />
+        <entry key="..\:/weatherapp/app/src/main/res/layout/toolbar_with_text.xml" value="0.22" />
+        <entry key="..\:/weatherapp/app/src/main/res/layout/weather_list_layout.xml" value="0.16666666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main.xml"
+    app:startDestination="@id/splashFragment">
+
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.example.weatherapp.ui.fragment.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splashFragment_to_weatherRecylerviewFragment"
+            app:destination="@id/weatherRecylerviewFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/weatherRecylerviewFragment"
+        android:name="com.example.weatherapp.ui.fragment.weather.WeatherRecylerviewFragment"
+        android:label="WeatherRecylerviewFragment"
+        tools:layout="@layout/fragment_weather_recylerview">
+        <action
+            android:id="@+id/action_weatherRecylerviewFragment_to_detailsFragment"
+            app:destination="@id/detailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.weatherapp.ui.fragment.details.DetailsFragment"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <argument
+            android:name="details"
+            app:argType="com.example.weatherapp.model.Listss" />
+    </fragment>
+</navigation>

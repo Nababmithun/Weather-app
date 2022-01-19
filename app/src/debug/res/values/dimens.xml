@@ -1,0 +1,82 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">120dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <!--Text-->
+    <dimen name="xxxSmallText">4sp</dimen>
+    <dimen name="xxSmallText">6dp</dimen>
+    <dimen name="xSmallText">12sp</dimen>
+    <dimen name="smallText">14sp</dimen>
+    <dimen name="mediumText">16sp</dimen>
+    <dimen name="normalText">17sp</dimen>
+    <dimen name="largeText">18sp</dimen>
+    <dimen name="xLargeText">20sp</dimen>
+    <dimen name="xxLargeText">22sp</dimen>
+    <dimen name="xxxLargeText">24sp</dimen>
+    <dimen name="xxxxLargeText">26sp</dimen>
+    <dimen name="titleTextSize">36sp</dimen>
+
+
+    <!--Margin-->
+    <dimen name="xxxSmallMargin">2dp</dimen>
+    <dimen name="xxSmallMargin">3dp</dimen>
+    <dimen name="xSmallMargin">4dp</dimen>
+    <dimen name="smallMargin">6dp</dimen>
+    <dimen name="mediumMargin">8dp</dimen>
+    <dimen name="normalMargin">10dp</dimen>
+    <dimen name="largeMargin">12dp</dimen>
+    <dimen name="xLargeMargin">14dp</dimen>
+    <dimen name="xxLargeMargin">16dp</dimen>
+    <dimen name="xxxLargeMargin">18dp</dimen>
+    <dimen name="xxxxLargeMargin">22dp</dimen>
+    <dimen name="xxxxLargeMarginn">20dp</dimen>
+
+    <dimen name="veryLargeMargin">60dp</dimen>
+
+
+    <!--Padding-->
+    <dimen name="smallPadding">6dp</dimen>
+    <dimen name="mediumPadding">8dp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="preNormalPadding">13dp</dimen>
+    <dimen name="normalPadding">16dp</dimen>
+    <dimen name="largePadding">18dp</dimen>
+    <dimen name="xLargePadding">20dp</dimen>
+    <dimen name="xxLargePadding">36dp</dimen>
+    <dimen name="xxxLargePadding">50dp</dimen>
+
+    <dimen name="otp_box_width">60dp</dimen>
+    <dimen name="otp_box_height">60dp</dimen>
+
+    <dimen name="number_pad_btn_height">55dp</dimen>
+
+    <!-- Item View Service -->
+    <dimen name="img_service_list_width">100dp</dimen>
+    <dimen name="img_service_list_height">100dp</dimen>
+
+    <!-- Service Details -->
+    <dimen name="view_pager_height">376dp</dimen>
+
+    <dimen name="ic_size">32dp</dimen>
+
+    <dimen name="button_height">48dp</dimen>
+
+    <dimen name="cardHeight">88dp</dimen>
+    <dimen name="cardHeightComplainCounter">78dp</dimen>
+    <dimen name="cardEventHeight">75dp</dimen>
+
+
+    <dimen name="toolbar_logo_size">100dp</dimen>
+
+    <!--Slider-->
+    <dimen name="shadow_height">4dp</dimen>
+    <dimen name="dots_height">40dp</dimen>
+
+    <dimen tools:override="true" name="design_fab_image_size">50dp</dimen>
+
+</resources>
